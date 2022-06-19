@@ -1,0 +1,89 @@
+
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            background-color: #eee;
+           font-family: 'Roboto', sans-serif;
+        }
+        
+        #container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: #E4E7E3;
+            padding: 20px;
+        }
+        header{}
+        .pro-img{
+            width:100px;
+            height: 120px;
+            border: 3px solid #fff;
+            border-radius:50%;
+            float: left;
+        }
+         .header-bio{
+             float: left;
+             padding: 10px;
+            
+         }
+         h1,h2, h3, h4, h5, h6{
+              color:#2AB209;
+         }
+         .header-contact{
+             float: right;
+             padding: 30px;
+        }
+
+        .header-contact a{
+            text-decoration: none;
+            font-weight: bold;
+            color: teal
+        }
+         .header-contact a:hover{
+            text-decoration: underline;
+            color:tomato
+         }
+         .clear-div{
+             clear: both;
+         }
+         hr{
+             border: 3px solid#000;
+             margin: 20px auto;
+             border-bottom: none;
+             width: 100%;
+         }
+         .personal-info{ margin-bottom: 30px;
+
+         }
+         .left-content{
+             width:30%;
+             float: left;
+         }
+         .right-content{
+             width: 70%;
+             float: right;
+         }
+         .common-hr{
+             border: 1px solid#000;
+             border-bottom: none;
+             width: 100%;
+             margin: 20px auto;
+         } 
+         .edu-left-content{float: left;width: 45%;}
+         .edu-right-content{float: right;width: 45%;}
+         .bottom-contaner{
+             background-color: #000;
+             text-align: center;
+             padding: 10px;
+         }
+         .bottom-contaner a{
+             color: #fff;
+            margin: 20px;
+            text-decoration: none;
+        }
+         .bottom-contaner p{
+             color: #fff;
+             margin-top: 15px;
+         }
